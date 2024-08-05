@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 40% 35% 25%;
+    grid-template-rows: 20% 50% 30%;
+}
+
+#left-top-left{
+    background-color: red;
+
+}
+
+#left-top-middle{
+    background-color: blue;
+}
+
+#left-top-right{
+    background-color: aqua;
+}
+#left-center{
+    background-color: chartreuse;
+    grid-row: 2;
+    grid-column: 1/2;
+}
+#left-center-right{
+    background-color: coral;
+    grid-column: 2/4;
+}
+#bottom{
+    background-color: darkmagenta;
+    grid-column: 1/4;
+}
